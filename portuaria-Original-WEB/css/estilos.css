@@ -1,0 +1,129 @@
+body{
+
+	height: 100%;
+	width: 100%;
+}
+
+.letra{
+	background: rgba(0,0,0, .4);
+	color: #fff;
+	size: 18px;
+	border-width: bolder;
+}
+
+
+#Presentacion /*div de presentacion de sitio*/
+{
+	height: 450px; 
+	background: url('../img/Nicaragua.png') center center no-repeat;
+	background-size: cover;
+}
+
+img{
+
+	max-width: 100%;
+}
+
+/* cover propiedades*/
+.distancia{
+	margin-top: 5px;
+	  color: #fff;
+}
+
+
+#cover{
+	background: #222 url('../img/formulario.png') center center no-repeat;
+	background-size: cover;
+	color: #000;
+	height: 100%;
+	text-align: center;
+}
+
+.fon{
+	background: #0880CC;
+	margin-top: 20px;
+	border-radius: 20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	-o-border-radius:20px;
+}
+
+.ancho{
+	width: 90%;
+	margin-top: 5px;
+	margin-right: 5%;
+	margin-left: 5%;
+	color: #000;
+}
+
+#cover-texto{
+	width: 100%;
+	font-weight: bold;
+	color: #fff;
+}
+ 
+#cover-texto .form-inline{
+	padding: 5rem 0;
+}
+
+.contenido-seccion{
+	padding: 5rem 0;
+}
+
+#acerca-de{
+		background: #222 url('../img/transportemaritimo.jpg') center center no-repeat;
+		background-size: cover;
+}
+
+.texto-acerca-de{
+	background: rgba(0,0,0,.8);
+	color: #fff;
+	padding: 1.87rem;
+}
+
+#footer{
+	background: #222;
+	color: #fff;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+}
+
+/****************************************************************/
+.art2 {/*Contenedor Actividades*/
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height:14%;
+	background-color: #0880CC;
+	padding: 10px;
+}
+
+.grupo{/*Para modificar el icono de fontawsome*/
+  display: block;
+  font-size: 42px;
+  text-align: left;
+  color: #fff;
+}
+
+.espacio{/*propiedades del encabezado*/
+  margin-top: 5px;
+  text-align: left;
+  height: 5px;
+}
+
+/*Ajuste del contenido de la tarjeta*/
+.cont{
+  margin-top: 25px;
+  text-align: justify;
+  padding: 15px;
+}
+
+/*Quitando el borde por defecto de la card*/
+.nuevos-bordes{
+ border: 0px;
+}
+
+/*Cambiando el color interno de la card*/
+.color-card{
+	background-color: #0880CC;"
+}
